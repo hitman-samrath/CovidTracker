@@ -19,6 +19,7 @@ h1 {
 .table-shadow {
     max-height: 700px;
     box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.25);
+    margin-bottom: 10px;
 }
 
 td,
@@ -29,7 +30,7 @@ th {
 .table td,
 .table th {
     padding: 0.75rem;
-    vertical-align: top;
+    vertical-align: middle;
     border-top: 1px solid #ddd;
 }
 
@@ -62,6 +63,54 @@ tbody tr td:hover {
 .table-dark {
     font-weight: bold;
     text-transform: uppercase;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: "Cursive";
+    font-weight: 600;
+    text-align: center;
+    background-color: #000;
+}
+
+#insta,
+#linkedin,
+#github {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+
+#insta:hover,
+#linkedin:hover,
+#github:hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+#insta:hover {
+    color: #e1306c;
+}
+
+#linkedin:hover {
+    color: #1e4fd6;
+}
+
+#github:hover {
+    color: rgb(8, 109, 21);
+}
+
+.last {
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.lastname {
+    color: #ffbb00;
 }
 
 @media(max-width: 700px) {
