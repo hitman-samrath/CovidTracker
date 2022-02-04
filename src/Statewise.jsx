@@ -28,9 +28,9 @@ const Statewise = () => {
                             <tr>
                                 <th>State</th>
                                 <th>Confirmed</th>
-                                <th>Active</th>
-                                <th>Deaths</th>
                                 <th>Recovered</th>
+                                <th>Deaths</th>
+                                <th>Active</th>
                                 <th>Last Updated</th>
                             </tr>
                         </thead>
@@ -42,8 +42,8 @@ const Statewise = () => {
                                         <tr key={index}>
                                             <td>{item.state}</td>
                                             <td>{item.confirmed}</td>
-                                            <td>{item.deaths}</td>
                                             <td>{item.recovered}</td>
+                                            <td>{item.deaths}</td>
                                             <td>{item.active}</td>
                                             <td>{item.lastupdatedtime}</td>
                                         </tr>
